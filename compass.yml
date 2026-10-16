@@ -1,0 +1,28 @@
+name: cpputest
+id: ari:cloud:compass:0f350409-7469-4766-9759-84b56e79f2f5:component/c116ca93-02ed-4b71-97d8-0b2e1c662b54/dce18aea-c20f-47a3-88a9-5223d14e56ed
+description: CppUTest unit testing and mocking framework for C/C++
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/Censio/cpputest
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields:
+  - name: Business Unit
+    type: single_select
+    value: null
+  - name: Monitors
+    type: text
+    value: null
+  - name: Team Slack Channel Name
+    type: text
+    value: null
+  - name: Team Slack Handle
+    type: text
+    value: null
